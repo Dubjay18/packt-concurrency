@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"github.com/Dubjay18/packt-concurrency/chap1"
+)
 
 func main() {
 	// Code
-	fmt.Println("Hello, World!")
+	chap1.Waitg()
+
 }
